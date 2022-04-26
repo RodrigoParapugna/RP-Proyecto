@@ -27,9 +27,7 @@
     font-size: large
 }
 .bodybg{
-    background-image: url("./imagenes/Background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+   background-image: linear-gradient(to left red, yellow);
 }
 .main{
     display: grid;
