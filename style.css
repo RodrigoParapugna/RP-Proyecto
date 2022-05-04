@@ -4,7 +4,7 @@
     padding: 0;
 }
 .header{
-    background-color: red;
+    background-color: black;
     
     
 }
@@ -26,4 +26,28 @@
 .footer-logos{
     display: flex;
     justify-content: space-evenly;
+    
+}
+.container-mapa{
+    display: flex;
+    justify-content: center;
+    border-color: black;
+
+}
+body{
+    overflow-x: hidden;
+ }
+
+
+
+
+
+@media (max-width: 600px){
+    .container-productos{
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: repeat 12, 15 rem;
+
+    }
+
 }
