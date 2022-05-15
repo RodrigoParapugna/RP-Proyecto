@@ -9,6 +9,11 @@ body{
             .nav-link{
                 font-size: 20px;
                 color: white;
+                .li{
+                    font-size: map-get($tamanio-tipografia,subtitulos);
+                }
+
+                
             }
         }
     }
