@@ -4,7 +4,7 @@
     padding: 0;
 }
 .header{
-    background-color: black;
+    background-color: red;
     
     
 }
@@ -22,6 +22,14 @@
 }
 .container-productos{
     background-color: gray;
+    }
+.imagenProducto{
+    width: 150px;
+    height: 150px;
+    position: relative;
+}
+.imagenProducto:hover{
+    transform: scale(1,2);
 }
 .footer-logos{
     display: flex;
@@ -36,6 +44,14 @@
 }
 body{
     overflow-x: hidden;
+ }
+ .marcasVehiculos{
+     background-color: gray;
+ }
+ .imagenMarcas{
+     max-width: 200px;
+     max-height: 200px;
+
  }
 
 
